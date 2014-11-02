@@ -1,0 +1,23 @@
+{
+  "name": "playtime",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rtmalone/playtime",
+  "authors": [
+    "Tyler Malone <rtylermalone@gmail.com>"
+  ],
+  "description": "A sandbox for playing with things",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.2.0",
+    "jquery": "~2.1.1",
+    "moment": "~2.8.3"
+  }
+}
