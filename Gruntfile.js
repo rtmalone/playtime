@@ -83,8 +83,11 @@ module.exports = function(grunt){
           src: '**/*.jade',
           dest: 'public',
           ext: '.html',
-          expand: true
+          expand: true,
         }]
+      },
+      options: {
+        pretty: true
       }
     },
     // ---------------------------------------------------------------------- //
